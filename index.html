@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buffet Planet Kids</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/index.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+      <div class="container">
+        <h1 class="navbar-brand m-0 section-title">
+          <img src="..." width="10%" alt="Logo do Planeta Kids" />
+          Planeta Kids
+        </h1>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu-navegacao"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav
+          class="navbar-collapse collapse justify-content-end"
+          id="menu-navegacao"
+        >
+          <ul class="nav nav-pills d-block d-md-flex">
+            <li class="nav-item fw-bold">
+              <a href="#sobre-o-buffet" class="nav-link">
+                <i class="bi bi-house-door me-1"></i>
+                Sobre o buffet
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#eventos" class="nav-link">
+                <i class="bi bi-calendar-check me-1"></i>
+                Eventos
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#cardapio" class="nav-link">
+                <i class="bi bi-card-text me-1"></i>
+                Nosso Cardápio
+              </a>
+            </li>
+            <li class="nav-item fw-bold">
+              <a href="#fale-conosco" class="nav-link">
+                <i class="bi bi-chat-left-text me-1"></i>
+                Fale conosco
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#cabecalho"
+      data-bs-smooth-scroll="true"
+    >
+      <section id="sobre-o-buffet">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="images/slides/slide1.jpg" alt="Foto do buffet 1" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/slides/slide2.jpg" alt="Foto do buffet 2" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/slides/slide3.jpg" alt="Foto do buffet 3" />
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="images/slides/slide4.jpg" alt="Foto do buffet 4" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="4"
+            ></button>
+          </div>
+        </div>
+        <div class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-5">
+                <img
+                  src="images/buffet_kids.jpeg"
+                  class="d-block w-100 rounded"
+                  alt="Foto do espaço externo do buffet"
+                />
+              </div>
+              <div class="col-md-7 mt-3 mt-md-0">
+                <h2 class="section-title">
+                  Sobre <span class="text-colored">o Buffet</span>
+                </h2>
+                <p>
+                  Para tornar sua festa ou evento inesquecível, a nossa rede de
+                  Buffets em São Paulo, se tornou mais que um Salão de Festas.
+                </p>
+                <h3 class="section-title">
+                  Sobre <span class="text-colored">o espaço</span>
+                </h3>
+                <p>
+                  O
+                  <strong
+                    >Planeta Kids é a maior rede de buffet infantil de São
+                    Paulo</strong
+                  >, oferece decoração exclusiva em um ambiente lúdico repleto
+                  de brinquedos, com cardápio diversificado e monitoria para as
+                  crianças, tudo para fazer da sua festa aconchegante e é claro
+                  muito divertida. Tudo que você sempre sonhou para realizar as
+                  melhores festas para crianças de todas as idades, você
+                  encontra aqui, no <strong>Planeta Kids</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <p class="mb-0">
+              &copy; 2024 Buffet Planeta Kids - Todos os direitos reservados
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
