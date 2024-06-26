@@ -81,3 +81,21 @@ footer {
 .address {
   color: #db49db;
 }
+
+
+.cta-button-link {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button-link:hover {
+  background-color: #e5533c;
+}
