@@ -28,6 +28,10 @@ body {
     color: #fff;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .navbar-toggler {
     background-color: #e7cbe3;
 }

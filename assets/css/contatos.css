@@ -1,0 +1,119 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #e7cbe3 !important;
+}
+
+.carousel-item img {
+  max-height: 570px;
+  max-width: 1350px;
+  object-fit: cover;
+}
+
+.navbar {
+  background-color: #c016b2;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff !important;
+  color: #c016b2;
+}
+
+#cabecalho .nav-link.active {
+  color: #1120ac;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: #fff;
+}
+
+#btn-menu {
+  background-color: yellow !important;
+  color: #fff;
+}
+
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  background-color: #e7cbe3;
+}
+
+.section-title {
+  font-family: Pacifico, cursive;
+}
+
+#sobre-o-buffet,
+#cardapio {
+  background-color: #e7cbe3;
+}
+
+.text-colored {
+  color: #c016b2;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #c016b2;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #c016b2;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .container-menu {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 280px;
+  }
+}
+
+#fale-conosco button:hover {
+  transition: all 0.2s ease;
+  background-color: #e919e9;
+  transform: translate(0px, -2px);
+}
+
+footer {
+  background-color: #e919e9;
+}
+
+.address {
+  color: #db49db;
+}
+
+.cta-button-link {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button-link:hover {
+  background-color: #e5533c;
+}

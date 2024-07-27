@@ -15,6 +15,18 @@ document.addEventListener("DOMContentLoaded", function () {
   contentDiv.appendChild(buttonDiv);
 });
 
+// MODAL
+
+document
+  .getElementById("formulario")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    var submitModal = new bootstrap.Modal(
+      document.getElementById("submitModal")
+    );
+    submitModal.show();
+  });
+
 // CRUD
 
 document
